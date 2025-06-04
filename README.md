@@ -192,9 +192,9 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 📞 联系方式
 
-- 项目维护者：[您的姓名]
-- 邮箱：[您的邮箱]
-- 项目地址：[GitHub仓库地址]
+- 项目维护者：[Azi]
+- 邮箱：[chanzimail@gmail.com]
+- 项目地址：[https://github.com/Azi9527/Al-Appp.git]
 
 ## 🙏 致谢
 
