@@ -1,0 +1,142 @@
+2025-05-28 18:41:32,796 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.3.8:8008
+2025-05-28 18:41:32,796 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 18:44:50,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.3.8:8008
+2025-05-28 18:44:50,688 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 18:45:31,669 - routes.chat - ERROR - ��������ʱ��������: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-05-28 18:45:31,762 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:45:31] "[35m[1mPOST /internvl/chat HTTP/1.1[0m" 500 -
+2025-05-28 18:46:57,970 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:46:57] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 18:46:58,262 - models.internvl_model - INFO - ���ڼ���ģ��: D:\gitimage\InternVL\checkpoints\internvl-chat-14b
+2025-05-28 18:46:58,556 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - vision_select_layer: -1
+2025-05-28 18:46:58,557 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - ps_version: v2
+2025-05-28 18:46:58,557 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2025-05-28 18:46:58,557 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2025-05-28 18:47:01,126 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - num_image_token: 256
+2025-05-28 18:47:01,126 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - ps_version: v2
+2025-05-28 18:47:14,374 - models.internvl_model - INFO - ģ�ͼ��سɹ�
+2025-05-28 18:47:14,375 - models.internvl_model - ERROR - ����ʧ��: shape
+2025-05-28 18:47:14,375 - routes.chat - ERROR - ��������ʱ��������: shape
+2025-05-28 18:47:14,375 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:47:14] "[35m[1mPOST /internvl/chat HTTP/1.1[0m" 500 -
+2025-05-28 18:49:51,640 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.3.8:8008
+2025-05-28 18:49:51,641 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 18:50:08,743 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:50:08] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 18:50:09,018 - models.internvl_model - INFO - ���ڼ���ģ��: D:\gitimage\InternVL\checkpoints\internvl-chat-14b
+2025-05-28 18:50:09,330 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - vision_select_layer: -1
+2025-05-28 18:50:09,331 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - ps_version: v2
+2025-05-28 18:50:09,331 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2025-05-28 18:50:09,331 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2025-05-28 18:50:09,889 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - num_image_token: 256
+2025-05-28 18:50:09,889 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - ps_version: v2
+2025-05-28 18:50:22,916 - models.internvl_model - INFO - ģ�ͼ��سɹ�
+2025-05-28 18:53:43,254 - routes.chat - INFO - ������ɣ�����: ����������ͼƬ
+2025-05-28 18:53:43,255 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:53:43] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 18:54:16,140 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:54:16] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 18:56:52,052 - routes.chat - INFO - ������ɣ�����: ����������ͼƬ
+2025-05-28 18:56:52,053 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:56:52] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 18:57:07,922 - werkzeug - INFO - 192.168.3.8 - - [28/May/2025 18:57:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-28 18:57:07,926 - werkzeug - INFO - 192.168.3.8 - - [28/May/2025 18:57:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-28 18:57:08,038 - werkzeug - INFO - 192.168.3.8 - - [28/May/2025 18:57:08] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-28 19:00:16,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.3.8:8008
+2025-05-28 19:00:16,425 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 19:01:09,632 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:01:09] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:01:09,897 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:01:09,898 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:01:09,908 - models.internvl_model - INFO - 正在加载模型: D:\gitimage\InternVL\checkpoints\internvl-chat-14b
+2025-05-28 19:01:10,230 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - vision_select_layer: -1
+2025-05-28 19:01:10,230 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - ps_version: v2
+2025-05-28 19:01:10,230 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2025-05-28 19:01:10,230 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2025-05-28 19:01:10,990 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - num_image_token: 256
+2025-05-28 19:01:10,990 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - ps_version: v2
+2025-05-28 19:01:29,685 - models.internvl_model - INFO - 模型加载成功
+2025-05-28 19:04:49,406 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:04:49,407 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:04:49] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:07:32,507 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:07:32] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:07:32,768 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:07:32,768 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:09:04,885 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:09:04] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:09:05,198 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:09:05,199 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:13:59,561 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:13:59,562 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:13:59] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:14:24,812 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:14:24,813 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:14:24] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:16:12,253 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:16:12] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:16:12,503 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:16:12,503 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:19:46,500 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:19:46,501 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:19:46] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:30:34,447 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:30:34] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:30:34,716 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:30:34,717 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:34:08,948 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:34:08,948 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:34:08] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:34:57,628 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:34:57] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:34:57,874 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:34:57,875 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:36:25,045 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:36:25] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:36:25,313 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:36:25,314 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:37:42,207 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:37:42] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:37:42,518 - routes.chat - INFO - 接收到的问题: 请描述这张图片
+2025-05-28 19:37:42,519 - routes.chat - INFO - 原始数据中的question字段: 请描述这张图片
+2025-05-28 19:40:58,395 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:40:58] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:40:58,658 - routes.chat - INFO - 接收到的问题: 请按照原格式解析图片内容
+2025-05-28 19:40:58,659 - routes.chat - INFO - 原始数据中的question字段: 请按照原格式解析图片内容
+2025-05-28 19:48:02,524 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:48:02,525 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:48:02] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:48:41,268 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:48:41,269 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:48:41] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:48:43,601 - routes.chat - INFO - 推理完成，问题: 请描述这张图片
+2025-05-28 19:48:43,603 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:48:43] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:49:47,871 - routes.chat - INFO - 推理完成，问题: 请按照原格式解析图片内容
+2025-05-28 19:49:47,873 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:49:47] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:53:35,646 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:53:35] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 19:53:35,896 - routes.chat - INFO - 接收到的问题: 请安装原格式输出文字内容
+2025-05-28 19:53:35,897 - routes.chat - INFO - 原始数据中的question字段: 请安装原格式输出文字内容
+2025-05-28 19:58:43,818 - routes.chat - INFO - 推理完成，问题: 请安装原格式输出文字内容
+2025-05-28 19:58:43,820 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 19:58:43] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-28 22:54:01,139 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:54:01] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-28 22:54:01,399 - routes.chat - INFO - 接收到的问题: 请按原格式输出文字内容
+2025-05-28 22:54:01,399 - routes.chat - INFO - 原始数据中的question字段: 请按原格式输出文字内容
+2025-05-28 22:59:10,217 - routes.chat - INFO - 推理完成，问题: 请按原格式输出文字内容
+2025-05-28 22:59:10,218 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:59:10] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-29 21:04:43,966 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.3.8:8008
+2025-05-29 21:04:43,966 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 21:05:34,519 - werkzeug - INFO - 127.0.0.1 - - [29/May/2025 21:05:34] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-29 21:05:34,769 - routes.chat - INFO - 接收到的问题: 请按原格式输出图片内容
+2025-05-29 21:05:34,770 - routes.chat - INFO - 原始数据中的question字段: 请按原格式输出图片内容
+2025-05-29 21:05:34,802 - models.internvl_model - INFO - 正在加载模型: D:\gitimage\InternVL\checkpoints\internvl-chat-14b
+2025-05-29 21:05:35,154 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - vision_select_layer: -1
+2025-05-29 21:05:35,154 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - ps_version: v2
+2025-05-29 21:05:35,154 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2025-05-29 21:05:35,154 - transformers_modules.internvl-chat-14b.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2025-05-29 21:05:35,821 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - num_image_token: 256
+2025-05-29 21:05:35,821 - transformers_modules.internvl-chat-14b.modeling_internvl_chat - INFO - ps_version: v2
+2025-05-29 21:05:57,793 - models.internvl_model - INFO - 模型加载成功
+2025-05-29 21:10:41,542 - routes.chat - INFO - 推理完成，问题: 请按原格式输出图片内容
+2025-05-29 21:10:41,543 - werkzeug - INFO - 127.0.0.1 - - [29/May/2025 21:10:41] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-30 14:28:33,055 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:28:33] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-30 14:28:33,321 - routes.chat - INFO - 接收到的问题: 请描述一下图片内容
+2025-05-30 14:28:33,322 - routes.chat - INFO - 原始数据中的question字段: 请描述一下图片内容
+2025-05-30 14:30:32,437 - routes.chat - INFO - 推理完成，问题: 请描述一下图片内容
+2025-05-30 14:30:32,437 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:30:32] "POST /internvl/chat HTTP/1.1" 200 -
+2025-05-30 14:33:48,016 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:33:48] "OPTIONS /internvl/chat HTTP/1.1" 200 -
+2025-05-30 14:33:48,286 - routes.chat - INFO - 接收到的问题: 这图片里面是男是女？
+2025-05-30 14:33:48,286 - routes.chat - INFO - 原始数据中的question字段: 这图片里面是男是女？
+2025-05-30 14:35:51,745 - routes.chat - INFO - 推理完成，问题: 这图片里面是男是女？
+2025-05-30 14:35:51,746 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:35:51] "POST /internvl/chat HTTP/1.1" 200 -
